@@ -1,6 +1,6 @@
 /**
  * streamedpk - Built from src/streamedpk/
- * Generated: 2026-07-04T20:16:56.847Z
+ * Generated: 2026-07-04T20:36:35.970Z
  */
 var __defProp = Object.defineProperty;
 var __getOwnPropDesc = Object.getOwnPropertyDescriptor;
@@ -56,7 +56,7 @@ __export(streamedpk_exports, {
 });
 module.exports = __toCommonJS(streamedpk_exports);
 var API = "https://streamed.pk/api";
-var PROXY = "https://api.allorigins.win/raw?url=";
+var PROXY = "https://every-origin.vercel.app/";
 function fetchJson(url) {
   return __async(this, null, function* () {
     const res = yield fetch(PROXY + encodeURIComponent(url));
