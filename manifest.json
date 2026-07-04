@@ -1,0 +1,9 @@
+{
+  "id": "streamedpk",
+  "name": "StreamedPK Sports",
+  "version": "1.0.0",
+  "resources": ["catalog", "stream"],
+  "types": ["movie"],
+  "catalogs": [{ "type": "movie", "id": "all", "name": "⚽ StreamedPK Live" }],
+  "idPrefixes": ["match_"]
+}
