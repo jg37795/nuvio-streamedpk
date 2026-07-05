@@ -4,9 +4,7 @@
   "version": "1.0.0",
   "resources": ["catalog", "stream"],
   "types": ["movie"],
-  "catalogs": [
-    { "type": "movie", "id": "all", "name": "⚽ StreamedPK Live" }
-  ],
+  "catalogs": [{ "type": "movie", "id": "all", "name": "⚽ StreamedPK Live" }],
   "idPrefixes": ["match_"],
   "js": "https://raw.githubusercontent.com/jg37795/nuvio-streamedpk/refs/heads/main/streamedpk.js"
 }
