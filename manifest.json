@@ -8,5 +8,5 @@
     { "type": "movie", "id": "test", "name": "🔵 Test Row" }
   ],
   "idPrefixes": ["tt"],
-  "js": "https://raw.githubusercontent.com/jg37795/nuvio-streamedpk/main/testmin.js"
+  "js": "https://raw.githubusercontent.com/jg37795/nuvio-streamedpk/refs/heads/main/testmin.js"
 }
