@@ -1,12 +1,1 @@
-{
-  "id": "testmin",
-  "name": "Test Minimal",
-  "version": "1.0.0",
-  "resources": ["catalog", "stream"],
-  "types": ["movie"],
-  "catalogs": [
-    { "type": "movie", "id": "test", "name": "🔵 Test Row" }
-  ],
-  "idPrefixes": ["tt"],
-  "js": "var exports={};exports.getCatalog=function(){return{metas:[{id:'tt1234567',type:'movie',name:'✅ TEST MATCH – Click me',poster:'',extra:{test:true}}]}};exports.getStreams=function(){return{streams:[{name:'Apple Test HLS',url:'https://devstreaming-cdn.apple.com/videos/streaming/examples/bipbop_4x3/bipbop_4x3_variant.m3u8',type:'hls'}]}};module.exports=exports;"
-}
+
