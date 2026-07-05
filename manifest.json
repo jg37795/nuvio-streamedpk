@@ -1,10 +1,12 @@
 {
-  "id": "streamedpk",
-  "name": "StreamedPK Sports",
+  "id": "testmin",
+  "name": "Test Minimal",
   "version": "1.0.0",
   "resources": ["catalog", "stream"],
   "types": ["movie"],
-  "catalogs": [{ "type": "movie", "id": "all", "name": "⚽ StreamedPK Live" }],
-  "idPrefixes": ["match_"],
-  "js": "https://raw.githubusercontent.com/jg37795/nuvio-streamedpk/refs/heads/main/streamedpk.js"
+  "catalogs": [
+    { "type": "movie", "id": "test", "name": "🔵 Test Row" }
+  ],
+  "idPrefixes": ["tt"],
+  "js": "https://raw.githubusercontent.com/jg37795/nuvio-streamedpk/main/testmin.js"
 }
